@@ -4,11 +4,8 @@ class Veiculo:
         self.marca = marca
         self.modelo = modelo
     
-    def ligar(estado):
-        if estado == "ligado":
-            return True
-        else:
-            return False
+    def ligar():
+        return True
 
 class Carro(Veiculo):
     def __init__(self,portas=4,marca="",modelo=""):
